@@ -18,7 +18,7 @@ In particular, the **goals** of this project are implementing the following poin
 
 The outcome of this project was a localization algorithm for its usage with 2D feature maps based in the Particle Filter. With the provided testing data, it managed to reach errors of 0.109, 0.114 and 0.004 for the car's X and Y positions (in meters) and its orientation (in radians), respectively, using 50 particles. This can be visualized in the following **YouTube demo**, where we can see the ground truth position (blue car), the estimated one (blue circle) and the observed features at each time (green lines connecting the car with the map features) in executions with 25, 50 and 100 particles:
 
-[![Demo video](https://img.youtube.com/vi/TIojotfJl8k/0.jpg)](https://www.youtube.com/watch?v=TIojotfJl8k)
+[![Demo video](pmg06.gif)](https://www.youtube.com/watch?v=TIojotfJl8k)
 
 
 This work will be followed by a brief documentation/overview contained in this file. This project is a completed version of the sample project template provided by the Self-Driving Car Engineer Udemy's Nanodegree. The un-completed original version is [this repository](https://github.com/udacity/CarND-Kidnapped-Vehicle-Project).
